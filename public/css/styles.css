@@ -1,0 +1,73 @@
+/* Basic resets and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #007bff;
+  }
+  
+  header .logo {
+    max-width: 100px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Section */
+  h2 {
+    color: #007bff;
+  }
+  
+  /* About Us Section */
+  section {
+    padding: 2rem 0;
+  }
+  
+  section h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
