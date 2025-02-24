@@ -1,6 +1,6 @@
-const express = require('express');
-const path = require('path');
-const router = express.Router();
+const express = require('express'); // import express 
+const path = require('path'); // import path
+const router = express.Router(); // create router
 
 //routes
 router.get('/', (req, res) => {
