@@ -2,7 +2,7 @@ const express = require('express'); // import express
 const path = require('path'); // import path
 const router = express.Router(); // create router
 
-//routes
+//routes with directory path to the view files.
 router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../views/index.html'));
 });
