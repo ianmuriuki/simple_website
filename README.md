@@ -22,6 +22,11 @@ Welcome to the **Grocery Store Website**, a simple and elegant one-page web appl
 
 ## 🚀 How to Run the Project
 
+
+**Run the server**:
+```bash
+ node server.js
+
 Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the Repository**:
